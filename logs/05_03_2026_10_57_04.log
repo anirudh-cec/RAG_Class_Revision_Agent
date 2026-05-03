@@ -1,0 +1,5 @@
+{"timestamp": "2026-05-03T05:27:04.413429Z", "level": "info", "event": "Initializing session state"}
+{"timestamp": "2026-05-03T05:27:04.414762Z", "level": "info", "event": "Session state initialization complete"}
+{"timestamp": "2026-05-03T05:27:04.414863Z", "level": "info", "event": "Current step: 0"}
+{"timestamp": "2026-05-03T05:27:04.414923Z", "level": "info", "event": "Rendering landing page"}
+{"timestamp": "2026-05-03T05:27:04.416803Z", "level": "info", "event": "Landing page rendered successfully"}

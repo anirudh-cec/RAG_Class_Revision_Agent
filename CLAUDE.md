@@ -75,18 +75,19 @@ A Retrieval-Augmented Generation (RAG) application that ingests class recording 
 
 ---
 
-## Tech Stack (TBD — to be confirmed as we go)
+## Tech Stack
 
-| Layer           | Options                                        |
-| --------------- | ---------------------------------------------- |
-| Frontend        | React / Next.js                                |
-| VTT Parsing     | Custom parser /`webvtt-py`                   |
-| Code Parsing    | Tree-sitter / language-specific AST            |
-| GitHub Fetching | GitHub REST API /`PyGithub`                  |
-| Embeddings      | OpenAI `text-embedding-ada-002`/ HuggingFace |
-| Vector Store    | Pinecone / Chroma / FAISS                      |
-| LLM             | Claude (Anthropic API) / OpenAI GPT            |
-| Backend         | FastAPI / Node.js                              |
+| Layer           | Technology              |
+| --------------- | ----------------------- |
+| Frontend        | Streamlit               |
+| VTT Parsing     | Custom parser           |
+| Code Parsing    | Tree-sitter / AST (TBD) |
+| GitHub Fetching | GitHub REST API (TBD)   |
+| Embeddings      | TBD                     |
+| Vector Store    | TBD                     |
+| LLM             | TBD                     |
+| Backend         | Python (src/)           |
+| Python          | >=3.12                  |
 
 ---
 
@@ -101,30 +102,102 @@ A Retrieval-Augmented Generation (RAG) application that ingests class recording 
 
 ---
 
-## File Structure (Proposed)
+## File Structure
 
 ```
 project-root/
-├── CLAUDE.md               ← This file
-├── frontend/               ← UI (React/Next.js)
-│   └── src/
-├── backend/                ← API server
-│   ├── ingestion/
-│   │   ├── vtt_parser.py
-│   │   ├── code_parser.py
-│   │   └── github_fetcher.py
-│   ├── embeddings/
-│   ├── vector_store/
-│   └── rag/
-│       └── query_engine.py
-├── data/                   ← Raw uploads (gitignored)
-└── README.md
+├── CLAUDE.md                ← This file
+├── pyproject.toml           ← Project metadata, dependencies, tool configs
+├── requirements.txt         ← Pinned dependencies (single file, project root)
+├── .env                     ← API keys and secrets (gitignored)
+├── app.py                   ← Entry point alias
+├── frontend/                ← Streamlit UI
+│   ├── app.py               ← Streamlit main entry point
+│   ├── components/          ← Reusable UI components
+│   │   ├── file_uploader.py
+│   │   ├── github_input.py
+│   │   ├── review_card.py
+│   │   └── step_indicator.py
+│   ├── pages/               ← Step-based page routing
+│   │   ├── landing.py
+│   │   ├── vtt_upload.py
+│   │   ├── code_upload.py
+│   │   ├── github_upload.py
+│   │   ├── review.py
+│   │   └── success.py
+│   ├── styles/
+│   │   └── custom_css.py
+│   └── utils/
+│       ├── file_handler.py
+│       ├── session_state.py
+│       └── validators.py
+├── src/                     ← Core backend logic
+│   ├── logger/
+│   │   └── custom_logger.py
+│   └── exception/
+│       └── custom_exception.py
+├── tests/                   ← Test suite
+├── architecture/            ← Architecture docs
+├── docs/                    ← Project documentation
+├── logs/                    ← Runtime logs (gitignored)
+└── data/                    ← Raw uploads (gitignored)
+```
+
+---
+
+## Running the App
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit frontend
+streamlit run frontend/app.py
 ```
 
 ---
 
 ## Notes
 
-* This file will be updated iteratively as the project evolves
+* This file is updated iteratively as the project evolves
 * Decisions marked TBD will be locked down in subsequent planning sessions
 * All sensitive keys (API keys, tokens) go in `.env` — never committed to git
+* Dependencies are managed in a single `requirements.txt` at the project root
+* we will be using astra db as vectordb below are details how to access that
+* 
+
+Install an adequate version of the [astrapy package](https://github.com/datastax/astrapy) (note: Python 3.9+ and pip 23.0+ versions required).
+
+```python
+pip install --upgrade astrapy
+```
+
+
+from astrapy import DataAPIClient
+
+# Initialize the client
+
+client = DataAPIClient()
+db = client.get_database(
+  api_endpoint="YOUR_API_ENDPOINT",
+  token="YOUR_TOKEN",
+)
+
+print(f"Connected to Astra DB: {db.list_collection_names()}")
+
+
+* we will be using meshapi for accessing LLM, both for embedding and normal llm.
+* How to use it  is shown below
+
+# pip install openai
+
+from openai import OpenAI
+client = OpenAI(
+api_key=os.environ["MESH_API_KEY"],
+base_url="https://api.meshapi.ai/v1",
+)
+resp = client.chat.completions.create(
+model="openai/gpt-4o-mini",
+messages=[{"role": "user", "content": "Hello!"}],
+)
+print(resp.choices[0].message.content)
