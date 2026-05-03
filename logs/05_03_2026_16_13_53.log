@@ -1,0 +1,71 @@
+{"path": "data/chunks/test/chunks.json", "timestamp": "2026-05-03T10:43:53.308687Z", "level": "info", "event": "Starting embedding pipeline"}
+{"timestamp": "2026-05-03T10:43:53.308890Z", "level": "info", "event": "Environment validated"}
+{"total": 202, "timestamp": "2026-05-03T10:43:53.319063Z", "level": "info", "event": "Chunks loaded"}
+{"timestamp": "2026-05-03T10:43:53.381023Z", "level": "info", "event": "Clients initialized"}
+{"start": 1, "end": 20, "total": 202, "timestamp": "2026-05-03T10:43:53.381179Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+findCollections
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+finished findCollections
+{"timestamp": "2026-05-03T10:43:56.923048Z", "level": "error", "event": "Batch 0 storage failed: Failed to ensure collection class_chunks: Database.create_collection() got an unexpected keyword argument 'dimension'"}
+{"start": 21, "end": 40, "total": 202, "timestamp": "2026-05-03T10:43:56.923299Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+findCollections
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+finished findCollections
+{"timestamp": "2026-05-03T10:43:58.315258Z", "level": "error", "event": "Batch 1 storage failed: Failed to ensure collection class_chunks: Database.create_collection() got an unexpected keyword argument 'dimension'"}
+{"start": 41, "end": 60, "total": 202, "timestamp": "2026-05-03T10:43:58.315392Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+findCollections
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+finished findCollections
+{"timestamp": "2026-05-03T10:44:00.056164Z", "level": "error", "event": "Batch 2 storage failed: Failed to ensure collection class_chunks: Database.create_collection() got an unexpected keyword argument 'dimension'"}
+{"start": 61, "end": 80, "total": 202, "timestamp": "2026-05-03T10:44:00.056326Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+findCollections
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+finished findCollections
+{"timestamp": "2026-05-03T10:44:01.219262Z", "level": "error", "event": "Batch 3 storage failed: Failed to ensure collection class_chunks: Database.create_collection() got an unexpected keyword argument 'dimension'"}
+{"start": 81, "end": 100, "total": 202, "timestamp": "2026-05-03T10:44:01.219434Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+findCollections
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+finished findCollections
+{"timestamp": "2026-05-03T10:44:02.001892Z", "level": "error", "event": "Batch 4 storage failed: Failed to ensure collection class_chunks: Database.create_collection() got an unexpected keyword argument 'dimension'"}
+{"start": 101, "end": 120, "total": 202, "timestamp": "2026-05-03T10:44:02.002098Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+findCollections
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+finished findCollections
+{"timestamp": "2026-05-03T10:44:02.745260Z", "level": "error", "event": "Batch 5 storage failed: Failed to ensure collection class_chunks: Database.create_collection() got an unexpected keyword argument 'dimension'"}
+{"start": 121, "end": 140, "total": 202, "timestamp": "2026-05-03T10:44:02.745419Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+findCollections
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+finished findCollections
+{"timestamp": "2026-05-03T10:44:03.486728Z", "level": "error", "event": "Batch 6 storage failed: Failed to ensure collection class_chunks: Database.create_collection() got an unexpected keyword argument 'dimension'"}
+{"start": 141, "end": 160, "total": 202, "timestamp": "2026-05-03T10:44:03.486925Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+findCollections
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+finished findCollections
+{"timestamp": "2026-05-03T10:44:04.458931Z", "level": "error", "event": "Batch 7 storage failed: Failed to ensure collection class_chunks: Database.create_collection() got an unexpected keyword argument 'dimension'"}
+{"start": 161, "end": 180, "total": 202, "timestamp": "2026-05-03T10:44:04.459184Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+findCollections
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+finished findCollections
+{"timestamp": "2026-05-03T10:44:05.484481Z", "level": "error", "event": "Batch 8 storage failed: Failed to ensure collection class_chunks: Database.create_collection() got an unexpected keyword argument 'dimension'"}
+{"start": 181, "end": 200, "total": 202, "timestamp": "2026-05-03T10:44:05.484612Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+findCollections
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+finished findCollections
+{"timestamp": "2026-05-03T10:44:06.711671Z", "level": "error", "event": "Batch 9 storage failed: Failed to ensure collection class_chunks: Database.create_collection() got an unexpected keyword argument 'dimension'"}
+{"start": 201, "end": 202, "total": 202, "timestamp": "2026-05-03T10:44:06.711788Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+findCollections
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+finished findCollections
+{"timestamp": "2026-05-03T10:44:07.633676Z", "level": "error", "event": "Batch 10 storage failed: Failed to ensure collection class_chunks: Database.create_collection() got an unexpected keyword argument 'dimension'"}
+{"total": 202, "embedded": 202, "stored": 0, "failed": 202, "timestamp": "2026-05-03T10:44:07.637375Z", "level": "info", "event": "Pipeline complete"}

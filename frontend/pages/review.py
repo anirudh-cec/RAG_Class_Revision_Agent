@@ -15,6 +15,8 @@ from frontend.utils.session_state import (
     set_current_step, get_state, set_state, clear_errors, add_error
 )
 from frontend.utils.file_handler import ensure_docs_folder, cleanup_on_error
+from src.ingestion.pipeline import run_vtt_chunking_pipeline
+from src.ingestion.embedding_pipeline import run_embedding_pipeline
 
 
 logger = CustomLogger(log_dir="logs").get_logger(__name__)
@@ -113,7 +115,7 @@ def navigate_to_step(step: int):
 
 
 def process_and_save():
-    """Process and save all uploaded files."""
+    """Process and save all uploaded files, then run chunking and embedding."""
     try:
         logger.info("Starting file processing")
 
@@ -134,7 +136,7 @@ def process_and_save():
             github_branches = get_state("github_branches") or {}
 
             # Step 1: Create docs folder structure
-            status_text.markdown("📁 **Step 1/5:** Creating docs folder structure...")
+            status_text.markdown("📁 **Step 1/7:** Creating docs folder structure...")
             try:
                 docs_path = ensure_docs_folder()
                 set_state("docs_path", docs_path)
@@ -144,10 +146,11 @@ def process_and_save():
                 add_error(f"Failed to create docs folder: {str(e)}")
                 return
 
-            progress_bar.progress(10)
+            progress_bar.progress(5)
 
             # Step 2: Save VTT files
-            status_text.markdown("📄 **Step 2/5:** Saving VTT files...")
+            status_text.markdown("📄 **Step 2/7:** Saving VTT files...")
+            vtt_paths = []
             try:
                 from frontend.utils.file_handler import save_vtt_files
                 if vtt_files:
@@ -162,10 +165,10 @@ def process_and_save():
                 add_error(f"Failed to save VTT files: {str(e)}")
                 return
 
-            progress_bar.progress(30)
+            progress_bar.progress(15)
 
             # Step 3: Save code files
-            status_text.markdown("💻 **Step 3/5:** Saving code files...")
+            status_text.markdown("💻 **Step 3/7:** Saving code files...")
             try:
                 from frontend.utils.file_handler import save_code_files
                 if code_files:
@@ -180,10 +183,10 @@ def process_and_save():
                 add_error(f"Failed to save code files: {str(e)}")
                 return
 
-            progress_bar.progress(50)
+            progress_bar.progress(25)
 
             # Step 4: Fetch GitHub repositories
-            status_text.markdown("🐙 **Step 4/5:** Fetching GitHub repositories...")
+            status_text.markdown("🐙 **Step 4/7:** Fetching GitHub repositories...")
             try:
                 from frontend.utils.file_handler import fetch_github_repo
                 if github_urls:
@@ -207,10 +210,66 @@ def process_and_save():
                 add_error(f"Failed to fetch GitHub repos: {str(e)}")
                 return
 
-            progress_bar.progress(80)
+            progress_bar.progress(35)
 
-            # Step 5: Finalize
-            status_text.markdown("✅ **Step 5/5:** Finalizing...")
+            # Step 5: Chunk VTT files
+            status_text.markdown("✂️ **Step 5/7:** Chunking VTT files...")
+            all_chunk_paths = []
+            total_chunks = 0
+            try:
+                for i, vtt_path in enumerate(vtt_paths):
+                    chunk_output_dir = os.path.join(docs_path, "chunks", os.path.splitext(os.path.basename(vtt_path))[0])
+                    status_text.markdown(f"✂️ **Step 5/7:** Chunking VTT file {i+1}/{len(vtt_paths)}...")
+                    result = run_vtt_chunking_pipeline(vtt_path, output_dir=chunk_output_dir)
+                    chunks_json = os.path.join(chunk_output_dir, "chunks.json")
+                    all_chunk_paths.append(chunks_json)
+                    total_chunks += result["validation"]["total_chunks"]
+                    logger.info(f"Chunked {vtt_path}: {result['validation']['total_chunks']} chunks")
+
+                set_state("upload_stats", {
+                    **(get_state("upload_stats") or {}),
+                    "chunk_paths": all_chunk_paths,
+                    "total_chunks": total_chunks,
+                })
+            except Exception as e:
+                logger.error(f"Failed to chunk VTT files: {str(e)}")
+                add_error(f"VTT chunking failed: {str(e)}")
+                return
+
+            progress_bar.progress(55)
+
+            # Step 6: Embed chunks and push to vector store
+            status_text.markdown("🧠 **Step 6/7:** Embedding chunks and storing in vector DB...")
+            embedding_results = []
+            try:
+                for i, chunks_json_path in enumerate(all_chunk_paths):
+                    status_text.markdown(f"🧠 **Step 6/7:** Embedding file {i+1}/{len(all_chunk_paths)}...")
+                    embed_status_path = os.path.join(
+                        os.path.dirname(chunks_json_path), "..", "embedding_status.json"
+                    )
+                    result = run_embedding_pipeline(
+                        chunks_json_path,
+                        embedding_status_path=embed_status_path,
+                    )
+                    embedding_results.append(result)
+                    logger.info(
+                        f"Embedded {chunks_json_path}: "
+                        f"{result['stored']}/{result['total_chunks']} stored"
+                    )
+
+                set_state("upload_stats", {
+                    **(get_state("upload_stats") or {}),
+                    "embedding_results": embedding_results,
+                })
+            except Exception as e:
+                logger.error(f"Failed to embed chunks: {str(e)}")
+                add_error(f"Embedding pipeline failed: {str(e)}")
+                return
+
+            progress_bar.progress(90)
+
+            # Step 7: Finalize
+            status_text.markdown("✅ **Step 7/7:** Finalizing...")
 
             # Clear progress UI
             progress_bar.empty()

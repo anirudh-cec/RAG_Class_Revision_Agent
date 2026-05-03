@@ -1,0 +1,27 @@
+{"path": "data/chunks/test/chunks.json", "timestamp": "2026-05-03T07:20:25.473987Z", "level": "info", "event": "Starting embedding pipeline"}
+{"timestamp": "2026-05-03T07:20:25.474204Z", "level": "info", "event": "Environment validated"}
+{"total": 202, "timestamp": "2026-05-03T07:20:25.484483Z", "level": "info", "event": "Chunks loaded"}
+{"timestamp": "2026-05-03T07:20:25.691036Z", "level": "info", "event": "Clients initialized"}
+{"start": 1, "end": 20, "total": 202, "timestamp": "2026-05-03T07:20:25.691198Z", "level": "info", "event": "Processing batch"}
+{"timestamp": "2026-05-03T07:20:28.818479Z", "level": "error", "event": "Batch 0 embedding failed: Failed to embed batch 0 after 3 attempts: No module named 'jiter.jiter'"}
+{"start": 21, "end": 40, "total": 202, "timestamp": "2026-05-03T07:20:28.818776Z", "level": "info", "event": "Processing batch"}
+{"timestamp": "2026-05-03T07:20:31.830947Z", "level": "error", "event": "Batch 1 embedding failed: Failed to embed batch 0 after 3 attempts: No module named 'jiter.jiter'"}
+{"start": 41, "end": 60, "total": 202, "timestamp": "2026-05-03T07:20:31.831236Z", "level": "info", "event": "Processing batch"}
+{"timestamp": "2026-05-03T07:20:34.842474Z", "level": "error", "event": "Batch 2 embedding failed: Failed to embed batch 0 after 3 attempts: No module named 'jiter.jiter'"}
+{"start": 61, "end": 80, "total": 202, "timestamp": "2026-05-03T07:20:34.842790Z", "level": "info", "event": "Processing batch"}
+{"timestamp": "2026-05-03T07:20:37.859238Z", "level": "error", "event": "Batch 3 embedding failed: Failed to embed batch 0 after 3 attempts: No module named 'jiter.jiter'"}
+{"start": 81, "end": 100, "total": 202, "timestamp": "2026-05-03T07:20:37.859531Z", "level": "info", "event": "Processing batch"}
+{"timestamp": "2026-05-03T07:20:40.871662Z", "level": "error", "event": "Batch 4 embedding failed: Failed to embed batch 0 after 3 attempts: No module named 'jiter.jiter'"}
+{"start": 101, "end": 120, "total": 202, "timestamp": "2026-05-03T07:20:40.872004Z", "level": "info", "event": "Processing batch"}
+{"timestamp": "2026-05-03T07:20:43.891897Z", "level": "error", "event": "Batch 5 embedding failed: Failed to embed batch 0 after 3 attempts: No module named 'jiter.jiter'"}
+{"start": 121, "end": 140, "total": 202, "timestamp": "2026-05-03T07:20:43.893088Z", "level": "info", "event": "Processing batch"}
+{"timestamp": "2026-05-03T07:20:46.910963Z", "level": "error", "event": "Batch 6 embedding failed: Failed to embed batch 0 after 3 attempts: No module named 'jiter.jiter'"}
+{"start": 141, "end": 160, "total": 202, "timestamp": "2026-05-03T07:20:46.911476Z", "level": "info", "event": "Processing batch"}
+{"timestamp": "2026-05-03T07:20:49.934984Z", "level": "error", "event": "Batch 7 embedding failed: Failed to embed batch 0 after 3 attempts: No module named 'jiter.jiter'"}
+{"start": 161, "end": 180, "total": 202, "timestamp": "2026-05-03T07:20:49.935847Z", "level": "info", "event": "Processing batch"}
+{"timestamp": "2026-05-03T07:20:52.955334Z", "level": "error", "event": "Batch 8 embedding failed: Failed to embed batch 0 after 3 attempts: No module named 'jiter.jiter'"}
+{"start": 181, "end": 200, "total": 202, "timestamp": "2026-05-03T07:20:52.956459Z", "level": "info", "event": "Processing batch"}
+{"timestamp": "2026-05-03T07:20:55.978886Z", "level": "error", "event": "Batch 9 embedding failed: Failed to embed batch 0 after 3 attempts: No module named 'jiter.jiter'"}
+{"start": 201, "end": 202, "total": 202, "timestamp": "2026-05-03T07:20:55.979687Z", "level": "info", "event": "Processing batch"}
+{"timestamp": "2026-05-03T07:20:59.004855Z", "level": "error", "event": "Batch 10 embedding failed: Failed to embed batch 0 after 3 attempts: No module named 'jiter.jiter'"}
+{"total": 202, "embedded": 0, "stored": 0, "failed": 202, "timestamp": "2026-05-03T07:20:59.009735Z", "level": "info", "event": "Pipeline complete"}

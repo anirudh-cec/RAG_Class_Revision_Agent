@@ -1,0 +1,1618 @@
+[
+  {
+    "chunk_id": 0,
+    "start_time": "00:00:01",
+    "end_time": "00:01:08",
+    "topic_hint": "Yes, the last class was optional, it was just for installation issues on Wednesday, okay?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 1,
+    "start_time": "00:01:09",
+    "end_time": "00:02:11",
+    "topic_hint": "Had it, solve it.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 2,
+    "start_time": "00:02:12",
+    "end_time": "00:03:16",
+    "topic_hint": "Okay, so introduction and fundamentals notebook, and then we were going through this particular notebook, the simple ...",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 3,
+    "start_time": "00:03:16",
+    "end_time": "00:04:32",
+    "topic_hint": "And if you are working with VA's code, Bessel.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 4,
+    "start_time": "00:04:39",
+    "end_time": "00:05:28",
+    "topic_hint": "Yes, if you have already downloaded, then also you can do a cloning operation.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 5,
+    "start_time": "00:05:29",
+    "end_time": "00:06:00",
+    "topic_hint": "Okay, like, cell-by-cell execution I also do, but, like, very specifically write it, okay?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 6,
+    "start_time": "00:06:03",
+    "end_time": "00:07:08",
+    "topic_hint": "Please check Notion for GitHub links.",
+    "chunk_type": "qa",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 7,
+    "start_time": "00:07:10",
+    "end_time": "00:08:18",
+    "topic_hint": "Yes, if you want, you can create a virtual environment again.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 8,
+    "start_time": "00:08:18",
+    "end_time": "00:09:19",
+    "topic_hint": "So, the main things that you'll be using, and very specifically, what are the imports.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 9,
+    "start_time": "00:09:22",
+    "end_time": "00:10:15",
+    "topic_hint": "Okay, so a quick, go-through that will be going.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 10,
+    "start_time": "00:10:15",
+    "end_time": "00:11:52",
+    "topic_hint": "Okay?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 11,
+    "start_time": "00:11:52",
+    "end_time": "00:12:32",
+    "topic_hint": "I think the font is a little bit big.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 12,
+    "start_time": "00:12:34",
+    "end_time": "00:13:51",
+    "topic_hint": "Okay, so… It won't create a problem, don't worry.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 13,
+    "start_time": "00:13:51",
+    "end_time": "00:14:48",
+    "topic_hint": "Into this import section, import tools.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 14,
+    "start_time": "00:14:48",
+    "end_time": "00:15:17",
+    "topic_hint": "Yes, please let me know.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 15,
+    "start_time": "00:15:17",
+    "end_time": "00:16:07",
+    "topic_hint": "And a few Langchen Core components that I'm using, very specifically for creating the template, then for creating cha...",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 16,
+    "start_time": "00:16:08",
+    "end_time": "00:17:36",
+    "topic_hint": "So, as I am working with OpenAI, okay, so I have kept this particular check.",
+    "chunk_type": "explanation",
+    "cue_count": 9
+  },
+  {
+    "chunk_id": 17,
+    "start_time": "00:17:38",
+    "end_time": "00:19:11",
+    "topic_hint": "We will be setting up our document loading part.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 18,
+    "start_time": "00:19:12",
+    "end_time": "00:20:05",
+    "topic_hint": "But for now, this is the most basic way of reading periods.",
+    "chunk_type": "explanation",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 19,
+    "start_time": "00:20:07",
+    "end_time": "00:20:56",
+    "topic_hint": "No, right now it won't understand table format and other stuff.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 20,
+    "start_time": "00:21:00",
+    "end_time": "00:21:38",
+    "topic_hint": "Alright guys, please let me know, can I proceed ahead with the next part?",
+    "chunk_type": "qa",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 21,
+    "start_time": "00:21:39",
+    "end_time": "00:22:42",
+    "topic_hint": "So, right now, this is the recursive character text splitter, okay?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 22,
+    "start_time": "00:22:42",
+    "end_time": "00:23:51",
+    "topic_hint": "So right now, this is the most basic splitting one.",
+    "chunk_type": "explanation",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 23,
+    "start_time": "00:23:51",
+    "end_time": "00:26:26",
+    "topic_hint": "So, text splitter.",
+    "chunk_type": "explanation",
+    "cue_count": 18
+  },
+  {
+    "chunk_id": 24,
+    "start_time": "00:26:26",
+    "end_time": "00:27:13",
+    "topic_hint": "So, after the chunk, what you need to do?",
+    "chunk_type": "explanation",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 25,
+    "start_time": "00:27:14",
+    "end_time": "00:28:01",
+    "topic_hint": "But Gemini, I don't have a paid one, I think.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 26,
+    "start_time": "00:28:03",
+    "end_time": "00:29:16",
+    "topic_hint": "Then in the next step, Once you have done the sample text, okay, so I think I need to call our sample embedding.",
+    "chunk_type": "explanation",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 27,
+    "start_time": "00:29:21",
+    "end_time": "00:31:37",
+    "topic_hint": "Okay, so… models, just wait to show me.",
+    "chunk_type": "explanation",
+    "cue_count": 11
+  },
+  {
+    "chunk_id": 28,
+    "start_time": "00:31:38",
+    "end_time": "00:33:26",
+    "topic_hint": "2048, this is one dimension.",
+    "chunk_type": "qa",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 29,
+    "start_time": "00:33:28",
+    "end_time": "00:34:30",
+    "topic_hint": "No, okay.",
+    "chunk_type": "qa",
+    "cue_count": 9
+  },
+  {
+    "chunk_id": 30,
+    "start_time": "00:34:33",
+    "end_time": "00:35:16",
+    "topic_hint": "Okay, task type… Let me just look into the API reference ones.",
+    "chunk_type": "explanation",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 31,
+    "start_time": "00:35:24",
+    "end_time": "00:36:15",
+    "topic_hint": "Okay, so this is the actual documentation, so some things might be deprecated.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 32,
+    "start_time": "00:36:16",
+    "end_time": "00:37:49",
+    "topic_hint": "Google API key, embedded.",
+    "chunk_type": "qa",
+    "cue_count": 11
+  },
+  {
+    "chunk_id": 33,
+    "start_time": "00:37:50",
+    "end_time": "00:39:06",
+    "topic_hint": "And… for now… Okay, so you can see right now the dimensionality got changed.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 34,
+    "start_time": "00:39:08",
+    "end_time": "00:40:16",
+    "topic_hint": "Muttasar Hakim, fine, this is your fifth unanswered query.",
+    "chunk_type": "qa",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 35,
+    "start_time": "00:40:16",
+    "end_time": "00:41:42",
+    "topic_hint": "Import waste… okay.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 36,
+    "start_time": "00:41:42",
+    "end_time": "00:43:01",
+    "topic_hint": "Okay?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 37,
+    "start_time": "00:43:01",
+    "end_time": "00:43:50",
+    "topic_hint": "Okay?",
+    "chunk_type": "qa",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 38,
+    "start_time": "00:43:50",
+    "end_time": "00:45:08",
+    "topic_hint": "Now, we will try to perform a retrieval operation, okay?",
+    "chunk_type": "qa",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 39,
+    "start_time": "00:45:08",
+    "end_time": "00:46:12",
+    "topic_hint": "Okay?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 40,
+    "start_time": "00:46:15",
+    "end_time": "00:47:02",
+    "topic_hint": "Yes, there are other types of similarity also, like Euclidean distances there, Jacquardian metrics as there, so many ...",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 41,
+    "start_time": "00:47:03",
+    "end_time": "00:48:04",
+    "topic_hint": "Converted the text to vector, so this was basically the step that we have defined.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 42,
+    "start_time": "00:48:05",
+    "end_time": "00:49:15",
+    "topic_hint": "Okay?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 10
+  },
+  {
+    "chunk_id": 43,
+    "start_time": "00:49:15",
+    "end_time": "00:50:26",
+    "topic_hint": "talking to an LLM, which is… it always starts with chat.",
+    "chunk_type": "qa",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 44,
+    "start_time": "00:50:26",
+    "end_time": "00:51:22",
+    "topic_hint": "So, Chat OpenAI, then comes your model selection, whichever model you want to work, GPT-5 Nano, 3.",
+    "chunk_type": "qa",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 45,
+    "start_time": "00:51:26",
+    "end_time": "00:52:28",
+    "topic_hint": "Okay, so if I change it, so let's make it 0.",
+    "chunk_type": "explanation",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 46,
+    "start_time": "00:52:30",
+    "end_time": "00:53:32",
+    "topic_hint": "Totally.",
+    "chunk_type": "explanation",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 47,
+    "start_time": "00:53:33",
+    "end_time": "00:54:50",
+    "topic_hint": "Okay, now the part is with respect to our final ranching build.",
+    "chunk_type": "qa",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 48,
+    "start_time": "00:54:50",
+    "end_time": "00:56:32",
+    "topic_hint": "Use the following pieces of ritual context to answer the question.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 49,
+    "start_time": "00:56:32",
+    "end_time": "00:57:45",
+    "topic_hint": "chain object, and later on you can call all those chain objects directly in one shot.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 50,
+    "start_time": "00:57:45",
+    "end_time": "00:59:25",
+    "topic_hint": "And this particular, reaction that we have, which is the context, okay?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 51,
+    "start_time": "00:59:26",
+    "end_time": "01:00:47",
+    "topic_hint": "And now you can see the rag chain that we have defined here.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 52,
+    "start_time": "01:00:49",
+    "end_time": "01:01:40",
+    "topic_hint": "Anirodh Prasad is asking, please explain context retriever format to us again.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 53,
+    "start_time": "01:01:40",
+    "end_time": "01:02:24",
+    "topic_hint": "Okay, and after indexing, so here, directly, we are taking the output of the retriever.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 54,
+    "start_time": "01:02:25",
+    "end_time": "01:03:54",
+    "topic_hint": "Okay?",
+    "chunk_type": "qa",
+    "cue_count": 10
+  },
+  {
+    "chunk_id": 55,
+    "start_time": "01:03:56",
+    "end_time": "01:04:46",
+    "topic_hint": "Alright, so pretty much the stuff that I have done, okay, this was all about this notebook.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 56,
+    "start_time": "01:04:48",
+    "end_time": "01:05:28",
+    "topic_hint": "Okay, Motoza is asking, does the size of the chunk affect… The similarities?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 57,
+    "start_time": "01:05:28",
+    "end_time": "01:06:25",
+    "topic_hint": "Okay.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 58,
+    "start_time": "01:06:26",
+    "end_time": "01:08:14",
+    "topic_hint": "Perfect.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 9
+  },
+  {
+    "chunk_id": 59,
+    "start_time": "01:08:15",
+    "end_time": "01:11:30",
+    "topic_hint": "Everybody convert text into numbers.",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 60,
+    "start_time": "01:11:34",
+    "end_time": "01:12:16",
+    "topic_hint": "Yes, it is possible to add custom metadata.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 61,
+    "start_time": "01:12:17",
+    "end_time": "01:14:27",
+    "topic_hint": "Okay, so what I will do, just boot.",
+    "chunk_type": "qa",
+    "cue_count": 11
+  },
+  {
+    "chunk_id": 62,
+    "start_time": "01:14:28",
+    "end_time": "01:15:29",
+    "topic_hint": "And paste it here, in your machine.",
+    "chunk_type": "explanation",
+    "cue_count": 9
+  },
+  {
+    "chunk_id": 63,
+    "start_time": "01:15:29",
+    "end_time": "01:16:17",
+    "topic_hint": "Like, behind the scenes, Olama uses Docker, always.",
+    "chunk_type": "qa",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 64,
+    "start_time": "01:16:18",
+    "end_time": "01:17:50",
+    "topic_hint": "Now, selecting L&Ms.",
+    "chunk_type": "qa",
+    "cue_count": 10
+  },
+  {
+    "chunk_id": 65,
+    "start_time": "01:17:51",
+    "end_time": "01:19:50",
+    "topic_hint": "I will prefer, like, you can use Gemma.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 66,
+    "start_time": "01:19:50",
+    "end_time": "01:25:51",
+    "topic_hint": "Okay, fine, it's, 10.",
+    "chunk_type": "explanation",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 67,
+    "start_time": "01:25:52",
+    "end_time": "01:27:35",
+    "topic_hint": "In Mac, it's pretty much straightforward.",
+    "chunk_type": "qa",
+    "cue_count": 11
+  },
+  {
+    "chunk_id": 68,
+    "start_time": "01:27:39",
+    "end_time": "01:28:49",
+    "topic_hint": "Alright, just, I'll stop sharing my screen.",
+    "chunk_type": "explanation",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 69,
+    "start_time": "01:28:49",
+    "end_time": "01:29:28",
+    "topic_hint": "Any random query for now.",
+    "chunk_type": "qa",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 70,
+    "start_time": "01:29:29",
+    "end_time": "01:31:52",
+    "topic_hint": "Now, once you have done the installation, simply, like, you can access that ULAM.",
+    "chunk_type": "qa",
+    "cue_count": 16
+  },
+  {
+    "chunk_id": 71,
+    "start_time": "01:31:52",
+    "end_time": "01:32:44",
+    "topic_hint": "Okay, hold over.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 72,
+    "start_time": "01:32:44",
+    "end_time": "01:33:43",
+    "topic_hint": "If you look into, this is exactly the same notebook.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 73,
+    "start_time": "01:33:43",
+    "end_time": "01:34:08",
+    "topic_hint": "Okay?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 74,
+    "start_time": "01:34:08",
+    "end_time": "01:35:03",
+    "topic_hint": "Because I know it's in GitHub, so yes, it will be there.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 9
+  },
+  {
+    "chunk_id": 75,
+    "start_time": "01:35:06",
+    "end_time": "01:36:25",
+    "topic_hint": "How many of you could not find Olama Rap?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 11
+  },
+  {
+    "chunk_id": 76,
+    "start_time": "01:36:26",
+    "end_time": "01:38:41",
+    "topic_hint": "The GitHub repo link is available in Notion, please check.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 77,
+    "start_time": "01:38:45",
+    "end_time": "01:39:19",
+    "topic_hint": "Okay, Olama connection, Olama uses Docker, okay, so… For this, you need to have Docker in your system.",
+    "chunk_type": "explanation",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 78,
+    "start_time": "01:39:20",
+    "end_time": "01:40:21",
+    "topic_hint": "Okay, so a few features like tool calling and other things are available here.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 79,
+    "start_time": "01:40:21",
+    "end_time": "01:41:20",
+    "topic_hint": "Please go to Notion and check for the notebook why you are asking for the link again and again.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 80,
+    "start_time": "01:41:20",
+    "end_time": "01:42:08",
+    "topic_hint": "Because I think by this time, every one of you have, downloaded the models.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 81,
+    "start_time": "01:42:09",
+    "end_time": "01:43:13",
+    "topic_hint": "Okay, because the previous executions I don't want.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 82,
+    "start_time": "01:43:15",
+    "end_time": "01:44:19",
+    "topic_hint": "There is no, reason of changing the vector database, I'll just, like, see.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 83,
+    "start_time": "01:44:19",
+    "end_time": "01:45:43",
+    "topic_hint": "to have it checked, because I know that, yes, the models are available, and I can access it.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 84,
+    "start_time": "01:45:43",
+    "end_time": "01:47:49",
+    "topic_hint": "That, for how many of you, it is working.",
+    "chunk_type": "qa",
+    "cue_count": 14
+  },
+  {
+    "chunk_id": 85,
+    "start_time": "01:47:49",
+    "end_time": "01:49:23",
+    "topic_hint": "Okay, so it's always the, like, 11434, so this should be accessible.",
+    "chunk_type": "explanation",
+    "cue_count": 9
+  },
+  {
+    "chunk_id": 86,
+    "start_time": "01:49:28",
+    "end_time": "01:50:16",
+    "topic_hint": "If it is running, okay, so LandChain automatically detects that.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 87,
+    "start_time": "01:50:17",
+    "end_time": "01:51:40",
+    "topic_hint": "Now, after this, there is a… Chunking operation.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 10
+  },
+  {
+    "chunk_id": 88,
+    "start_time": "01:51:42",
+    "end_time": "01:52:59",
+    "topic_hint": "Okay, so here you can see.",
+    "chunk_type": "qa",
+    "cue_count": 9
+  },
+  {
+    "chunk_id": 89,
+    "start_time": "01:52:59",
+    "end_time": "01:54:07",
+    "topic_hint": "Then, I like this MXBI, large.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 90,
+    "start_time": "01:54:08",
+    "end_time": "01:55:24",
+    "topic_hint": "Because my embeddings is… I will be calling these embeddings directly in the next step.",
+    "chunk_type": "qa",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 91,
+    "start_time": "01:55:25",
+    "end_time": "01:56:37",
+    "topic_hint": "Okay, so now let me just execute this, okay, and you will see, ChromaTV folder will be created here.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 92,
+    "start_time": "01:56:39",
+    "end_time": "01:58:27",
+    "topic_hint": "So, it fetched the top 4 documents.",
+    "chunk_type": "qa",
+    "cue_count": 14
+  },
+  {
+    "chunk_id": 93,
+    "start_time": "01:58:27",
+    "end_time": "01:59:19",
+    "topic_hint": "Now, I'll be calling.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 94,
+    "start_time": "01:59:21",
+    "end_time": "02:00:56",
+    "topic_hint": "Machine learning.",
+    "chunk_type": "explanation",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 95,
+    "start_time": "02:00:56",
+    "end_time": "02:02:32",
+    "topic_hint": "I don't have any physical presence in your local area, and based on that, it is responding.",
+    "chunk_type": "qa",
+    "cue_count": 10
+  },
+  {
+    "chunk_id": 96,
+    "start_time": "02:02:35",
+    "end_time": "02:03:44",
+    "topic_hint": "Samik Shamahajan, by default, the embedding gets initialized for your query.",
+    "chunk_type": "qa",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 97,
+    "start_time": "02:03:44",
+    "end_time": "02:04:40",
+    "topic_hint": "No, no, okay, a few people are there.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 98,
+    "start_time": "02:04:40",
+    "end_time": "02:06:16",
+    "topic_hint": "Okay, so I think 2, 3, these are small notebooks.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 10
+  },
+  {
+    "chunk_id": 99,
+    "start_time": "02:06:16",
+    "end_time": "02:07:52",
+    "topic_hint": "Okay.",
+    "chunk_type": "qa",
+    "cue_count": 16
+  },
+  {
+    "chunk_id": 100,
+    "start_time": "02:07:53",
+    "end_time": "02:09:20",
+    "topic_hint": "So Nali is telling, today, none of my code is working.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 10
+  },
+  {
+    "chunk_id": 101,
+    "start_time": "02:09:21",
+    "end_time": "02:11:22",
+    "topic_hint": "I'm not saying Ulama is not recognized, try to do a restart of your system.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 102,
+    "start_time": "02:11:25",
+    "end_time": "02:13:40",
+    "topic_hint": "There are other tools also, like Llama Factory and others using which, fine-tuning can be done.",
+    "chunk_type": "qa",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 103,
+    "start_time": "02:13:41",
+    "end_time": "02:14:11",
+    "topic_hint": "If these four, evaluation, we have not discussed.",
+    "chunk_type": "qa",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 104,
+    "start_time": "02:14:11",
+    "end_time": "02:15:06",
+    "topic_hint": "Okay, I will just go through this part once again.",
+    "chunk_type": "explanation",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 105,
+    "start_time": "02:15:07",
+    "end_time": "02:16:31",
+    "topic_hint": "This is also discussed.",
+    "chunk_type": "explanation",
+    "cue_count": 12
+  },
+  {
+    "chunk_id": 106,
+    "start_time": "02:16:34",
+    "end_time": "02:17:39",
+    "topic_hint": "Why chunk in?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 107,
+    "start_time": "02:17:39",
+    "end_time": "02:18:32",
+    "topic_hint": "Okay, so don't ask about re-ranking.",
+    "chunk_type": "explanation",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 108,
+    "start_time": "02:18:33",
+    "end_time": "02:22:25",
+    "topic_hint": "It's just, like, for data parsing, it is used.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 109,
+    "start_time": "02:22:25",
+    "end_time": "02:23:44",
+    "topic_hint": "nodes.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 110,
+    "start_time": "02:23:44",
+    "end_time": "02:24:55",
+    "topic_hint": "Now, this document is a LangChain document.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 111,
+    "start_time": "02:24:55",
+    "end_time": "02:25:47",
+    "topic_hint": "Okay, so right now, I am loading the same attention.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 112,
+    "start_time": "02:25:48",
+    "end_time": "02:27:32",
+    "topic_hint": "Now, working with Lazy Rudy.",
+    "chunk_type": "qa",
+    "cue_count": 12
+  },
+  {
+    "chunk_id": 113,
+    "start_time": "02:27:32",
+    "end_time": "02:28:43",
+    "topic_hint": "So you can just look, look into… so I'm just reading the 5 pages only, not all those 15 pages.",
+    "chunk_type": "qa",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 114,
+    "start_time": "02:28:43",
+    "end_time": "02:29:50",
+    "topic_hint": "Now, I'm creating a blank list.",
+    "chunk_type": "explanation",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 115,
+    "start_time": "02:29:51",
+    "end_time": "02:30:47",
+    "topic_hint": "So right now, in our case, it's PDF.",
+    "chunk_type": "qa",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 116,
+    "start_time": "02:30:49",
+    "end_time": "02:31:56",
+    "topic_hint": "You can finally print loaded, so one by one, all of the PDFs will be loaded, and finally return the length of all the...",
+    "chunk_type": "explanation",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 117,
+    "start_time": "02:31:57",
+    "end_time": "02:33:12",
+    "topic_hint": "Do lazy load, one page at a time?",
+    "chunk_type": "qa",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 118,
+    "start_time": "02:33:13",
+    "end_time": "02:34:22",
+    "topic_hint": "Okay, so those things we'll be talking during data bars in.",
+    "chunk_type": "qa",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 119,
+    "start_time": "02:34:23",
+    "end_time": "02:35:26",
+    "topic_hint": "Okay, so… Okay, so based on the loader, as you can see here, CSV loader, there is a direct class which is available w...",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 120,
+    "start_time": "02:35:26",
+    "end_time": "02:36:55",
+    "topic_hint": "Wow, we are performing this.",
+    "chunk_type": "explanation",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 121,
+    "start_time": "02:36:56",
+    "end_time": "02:39:48",
+    "topic_hint": "Okay?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 122,
+    "start_time": "02:39:48",
+    "end_time": "02:40:43",
+    "topic_hint": "So… sample data, JSON API response, okay?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 123,
+    "start_time": "02:40:44",
+    "end_time": "02:41:17",
+    "topic_hint": "I think everybody knows about JSON, a key-value pair.",
+    "chunk_type": "explanation",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 124,
+    "start_time": "02:41:18",
+    "end_time": "02:43:34",
+    "topic_hint": "And… okay, no module named JQ.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 18
+  },
+  {
+    "chunk_id": 125,
+    "start_time": "02:43:35",
+    "end_time": "02:46:46",
+    "topic_hint": "Windows also needed the installation, alright.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 19
+  },
+  {
+    "chunk_id": 126,
+    "start_time": "02:46:49",
+    "end_time": "02:49:01",
+    "topic_hint": "Okay, so here you can see Note only works with static HTML and no JavaScript rendering.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 11
+  },
+  {
+    "chunk_id": 127,
+    "start_time": "02:49:01",
+    "end_time": "02:50:16",
+    "topic_hint": "If you remember last time, I created a folder, and I then used a for loop.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 128,
+    "start_time": "02:50:16",
+    "end_time": "02:51:44",
+    "topic_hint": "Okay, it's always better at any point of time.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 129,
+    "start_time": "02:51:45",
+    "end_time": "02:52:36",
+    "topic_hint": "Text splitting… Hmm… It's already 12, okay?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 130,
+    "start_time": "02:52:37",
+    "end_time": "02:55:02",
+    "topic_hint": "Okay, so people who have doubts, please let me know.",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 131,
+    "start_time": "02:55:02",
+    "end_time": "02:56:25",
+    "topic_hint": "Satyabrata: Yeah, yeah, that's true.",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 132,
+    "start_time": "02:56:26",
+    "end_time": "02:58:29",
+    "topic_hint": "Satyabrata: Good, good, yeah, thanks.",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 133,
+    "start_time": "02:58:29",
+    "end_time": "02:59:30",
+    "topic_hint": "Yes, yes, it can be in your own AWS and your own cloud infrastructure hosted, no issuing.",
+    "chunk_type": "qa",
+    "cue_count": 11
+  },
+  {
+    "chunk_id": 134,
+    "start_time": "02:59:31",
+    "end_time": "03:02:56",
+    "topic_hint": "Rajat Khanna: Okay, and now the other question is, like, like, we have used, Chroma VectorDB, so, like, normally, we ...",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 135,
+    "start_time": "03:02:57",
+    "end_time": "03:03:56",
+    "topic_hint": "Rajat Khanna: Okay.",
+    "chunk_type": "qa",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 136,
+    "start_time": "03:03:56",
+    "end_time": "03:05:07",
+    "topic_hint": "Prathmesh Atre: Hello, sir.",
+    "chunk_type": "qa",
+    "cue_count": 11
+  },
+  {
+    "chunk_id": 137,
+    "start_time": "03:05:08",
+    "end_time": "03:06:31",
+    "topic_hint": "When you are working in a project on… When you are in a leadership position, okay, so, like, you have to take the It'...",
+    "chunk_type": "explanation",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 138,
+    "start_time": "03:06:31",
+    "end_time": "03:08:22",
+    "topic_hint": "Wanda.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 14
+  },
+  {
+    "chunk_id": 139,
+    "start_time": "03:08:24",
+    "end_time": "03:09:13",
+    "topic_hint": "Prathmesh Atre: Okay, sir.",
+    "chunk_type": "qa",
+    "cue_count": 9
+  },
+  {
+    "chunk_id": 140,
+    "start_time": "03:09:13",
+    "end_time": "03:09:52",
+    "topic_hint": "Alright, Mohit.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 141,
+    "start_time": "03:09:52",
+    "end_time": "03:11:34",
+    "topic_hint": "Sonali: So earlier I got this… Sonali: Yeah, so earlier, I got this LangChain not installed and all, but if you see, ...",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 142,
+    "start_time": "03:11:35",
+    "end_time": "03:12:15",
+    "topic_hint": "Hari Kumar: Is it my screen is sharing?",
+    "chunk_type": "qa",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 143,
+    "start_time": "03:12:15",
+    "end_time": "03:13:50",
+    "topic_hint": "Sonali: Video operation on the side of it.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 17
+  },
+  {
+    "chunk_id": 144,
+    "start_time": "03:13:52",
+    "end_time": "03:14:42",
+    "topic_hint": "Okay, so here it's selling that, load.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 145,
+    "start_time": "03:14:43",
+    "end_time": "03:16:24",
+    "topic_hint": "Sonali: Oh, hi.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 146,
+    "start_time": "03:16:24",
+    "end_time": "03:17:05",
+    "topic_hint": "Hari Kumar: Yes.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 147,
+    "start_time": "03:17:05",
+    "end_time": "03:18:22",
+    "topic_hint": "Hari Kumar: Sure.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 148,
+    "start_time": "03:18:22",
+    "end_time": "03:20:15",
+    "topic_hint": "Yes, those things will come.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 149,
+    "start_time": "03:20:15",
+    "end_time": "03:22:42",
+    "topic_hint": "Anshu singh: BM25 plus metadata also, right, sir?",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 150,
+    "start_time": "03:22:42",
+    "end_time": "03:24:14",
+    "topic_hint": "Salman Habeeb: And which one will you recommend?",
+    "chunk_type": "explanation",
+    "cue_count": 17
+  },
+  {
+    "chunk_id": 151,
+    "start_time": "03:24:15",
+    "end_time": "03:26:14",
+    "topic_hint": "No, that's the end of the… Salman Habeeb: So even if he's able to fire a query, let's say my name is Salman, and I wa...",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 152,
+    "start_time": "03:26:14",
+    "end_time": "03:27:20",
+    "topic_hint": "Okay, but I will give you a generic pipeline for ETL and other stuff, how to do that.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 10
+  },
+  {
+    "chunk_id": 153,
+    "start_time": "03:27:21",
+    "end_time": "03:28:37",
+    "topic_hint": "Salman Habeeb: All the outputs which we're looking at.",
+    "chunk_type": "qa",
+    "cue_count": 14
+  },
+  {
+    "chunk_id": 154,
+    "start_time": "03:28:38",
+    "end_time": "03:29:38",
+    "topic_hint": "Okay, now, coming to Krishnanu, your API issue, and Naga's some setup issue.",
+    "chunk_type": "qa",
+    "cue_count": 9
+  },
+  {
+    "chunk_id": 155,
+    "start_time": "03:29:38",
+    "end_time": "03:31:42",
+    "topic_hint": "Yes, your issue is with respect to?",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 156,
+    "start_time": "03:31:42",
+    "end_time": "03:32:49",
+    "topic_hint": "Nitesh: No, I don't want to share, I have a.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 10
+  },
+  {
+    "chunk_id": 157,
+    "start_time": "03:32:50",
+    "end_time": "03:33:34",
+    "topic_hint": "Nitesh: Yes?",
+    "chunk_type": "qa",
+    "cue_count": 8
+  },
+  {
+    "chunk_id": 158,
+    "start_time": "03:33:35",
+    "end_time": "03:34:19",
+    "topic_hint": "Nitesh: So, my understanding was that we… where we are giving this, which embedding has to use, Nitesh: To store thos...",
+    "chunk_type": "explanation",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 159,
+    "start_time": "03:34:19",
+    "end_time": "03:36:49",
+    "topic_hint": "Nitesh: No, no, sorry, sorry.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 16
+  },
+  {
+    "chunk_id": 160,
+    "start_time": "03:36:49",
+    "end_time": "03:39:00",
+    "topic_hint": "install 2 or 3 other code editors, like I was using anti-gravity, wind stop, cursor, just install.",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 161,
+    "start_time": "03:39:01",
+    "end_time": "03:40:22",
+    "topic_hint": "Kiran Rathod: I wanted to share.",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 162,
+    "start_time": "03:40:23",
+    "end_time": "03:42:19",
+    "topic_hint": "Rahul Parihar: So, Paul, thanks.",
+    "chunk_type": "explanation",
+    "cue_count": 11
+  },
+  {
+    "chunk_id": 163,
+    "start_time": "03:42:39",
+    "end_time": "03:44:15",
+    "topic_hint": "Do you have UV in your system?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 164,
+    "start_time": "03:44:15",
+    "end_time": "03:45:30",
+    "topic_hint": "Using a dot EM logo.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 18
+  },
+  {
+    "chunk_id": 165,
+    "start_time": "03:45:31",
+    "end_time": "03:47:25",
+    "topic_hint": "First of all, open a tab, open a tab, otherwise you will lose that.",
+    "chunk_type": "qa",
+    "cue_count": 19
+  },
+  {
+    "chunk_id": 166,
+    "start_time": "03:47:29",
+    "end_time": "03:49:21",
+    "topic_hint": "Okay?",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 167,
+    "start_time": "03:49:27",
+    "end_time": "03:50:11",
+    "topic_hint": "Don't write full upgrade, just write the capital one, okay?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 168,
+    "start_time": "03:50:11",
+    "end_time": "03:50:45",
+    "topic_hint": "Rahul Parihar: I hope you.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 7
+  },
+  {
+    "chunk_id": 169,
+    "start_time": "03:50:49",
+    "end_time": "03:51:20",
+    "topic_hint": "Hyphen, hyphen, add hyphen.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 6
+  },
+  {
+    "chunk_id": 170,
+    "start_time": "03:51:20",
+    "end_time": "03:52:05",
+    "topic_hint": "Got the problem.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 9
+  },
+  {
+    "chunk_id": 171,
+    "start_time": "03:52:06",
+    "end_time": "03:53:34",
+    "topic_hint": "Rahul Parihar: But why can't I open in WinServe or Visual Studio, you're demoing and everything, and so why can't I j...",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 172,
+    "start_time": "03:53:34",
+    "end_time": "03:53:54",
+    "topic_hint": "Or a rename that .",
+    "chunk_type": "explanation",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 173,
+    "start_time": "03:53:55",
+    "end_time": "03:54:41",
+    "topic_hint": "Okay, now see, this is an older input, no?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 174,
+    "start_time": "03:54:41",
+    "end_time": "03:55:46",
+    "topic_hint": "Pull, only download the image.",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 175,
+    "start_time": "03:55:46",
+    "end_time": "03:56:21",
+    "topic_hint": "Paran Dharma, yes, I think, you need.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 176,
+    "start_time": "03:56:22",
+    "end_time": "03:57:56",
+    "topic_hint": "It will be working with the existing codebook for the other notebooks.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 177,
+    "start_time": "03:57:56",
+    "end_time": "03:58:34",
+    "topic_hint": "Rohit Srivastava: Yeah, yeah?",
+    "chunk_type": "qa",
+    "cue_count": 10
+  },
+  {
+    "chunk_id": 178,
+    "start_time": "03:58:35",
+    "end_time": "03:59:58",
+    "topic_hint": "Awesome.",
+    "chunk_type": "qa",
+    "cue_count": 15
+  },
+  {
+    "chunk_id": 179,
+    "start_time": "03:59:58",
+    "end_time": "04:01:12",
+    "topic_hint": "Rohit Srivastava: And let me put it, like, share, alright, share this.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 12
+  },
+  {
+    "chunk_id": 180,
+    "start_time": "04:01:13",
+    "end_time": "04:04:16",
+    "topic_hint": "Rohit Srivastava: So, in this case, what approach would you provide?",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 181,
+    "start_time": "04:04:16",
+    "end_time": "04:06:04",
+    "topic_hint": "Rohit Srivastava: No, my market segment is not cost-oriented, to be honest.",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 182,
+    "start_time": "04:06:04",
+    "end_time": "04:08:39",
+    "topic_hint": "Rohit Srivastava: Yes.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 183,
+    "start_time": "04:08:39",
+    "end_time": "04:09:13",
+    "topic_hint": "Okay, fine, in the terminal, in the terminal, just open Python.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 184,
+    "start_time": "04:09:13",
+    "end_time": "04:11:14",
+    "topic_hint": "Apart from here, first do an exit, exit, first do an exit, or, I think, control that in… Windows here.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 185,
+    "start_time": "04:11:17",
+    "end_time": "04:13:11",
+    "topic_hint": "First of all, kill VSport.",
+    "chunk_type": "qa",
+    "cue_count": 19
+  },
+  {
+    "chunk_id": 186,
+    "start_time": "04:13:12",
+    "end_time": "04:13:48",
+    "topic_hint": "shrey: Okay, I guess, after restarting… Naga: We're gonna… After restarting, it's working.",
+    "chunk_type": "qa",
+    "cue_count": 9
+  },
+  {
+    "chunk_id": 187,
+    "start_time": "04:13:48",
+    "end_time": "04:15:55",
+    "topic_hint": "Yeah.",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 188,
+    "start_time": "04:15:55",
+    "end_time": "04:17:34",
+    "topic_hint": "Srinivasa Rao Tadela: Yeah, that.",
+    "chunk_type": "explanation",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 189,
+    "start_time": "04:17:34",
+    "end_time": "04:18:59",
+    "topic_hint": "Alright, then just try to execute pip install hyphen r requirement.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 190,
+    "start_time": "04:19:00",
+    "end_time": "04:20:28",
+    "topic_hint": "Go to that simple, first, go to that always folder, your simple… Yes, yes, yes, yes.",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 191,
+    "start_time": "04:20:28",
+    "end_time": "04:21:28",
+    "topic_hint": "Yes, I can see your screen, great.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 16
+  },
+  {
+    "chunk_id": 192,
+    "start_time": "04:21:31",
+    "end_time": "04:22:48",
+    "topic_hint": "Just copy that cell or somewhere.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 193,
+    "start_time": "04:22:49",
+    "end_time": "04:23:58",
+    "topic_hint": "I think it should work, but again, like, I'm directly ignored.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 12
+  },
+  {
+    "chunk_id": 194,
+    "start_time": "04:23:58",
+    "end_time": "04:24:42",
+    "topic_hint": "Srinivasa Rao Tadela: Yeah.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 10
+  },
+  {
+    "chunk_id": 195,
+    "start_time": "04:24:44",
+    "end_time": "04:25:37",
+    "topic_hint": "Restart the kernel?",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 16
+  },
+  {
+    "chunk_id": 196,
+    "start_time": "04:25:39",
+    "end_time": "04:27:24",
+    "topic_hint": "Amit Singh: Sir, I… yeah, I… I… I'm able to retrieve the documents.",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 197,
+    "start_time": "04:27:25",
+    "end_time": "04:29:09",
+    "topic_hint": "Show me your screen without looking into it, very hard for me to say.",
+    "chunk_type": "qa",
+    "cue_count": 20
+  },
+  {
+    "chunk_id": 198,
+    "start_time": "04:29:09",
+    "end_time": "04:30:33",
+    "topic_hint": "So for that, cosine similarity is required.",
+    "chunk_type": "qa",
+    "cue_count": 13
+  },
+  {
+    "chunk_id": 199,
+    "start_time": "04:30:33",
+    "end_time": "04:31:41",
+    "topic_hint": "Fine, fine, fine, fine.",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 12
+  },
+  {
+    "chunk_id": 200,
+    "start_time": "04:31:41",
+    "end_time": "04:32:09",
+    "topic_hint": "Varenya: Yeah, sure, sure, thank you very much.",
+    "chunk_type": "qa",
+    "cue_count": 5
+  },
+  {
+    "chunk_id": 201,
+    "start_time": "04:32:10",
+    "end_time": "04:32:20",
+    "topic_hint": "Alright… Fine, guys, then I'll be concluding the session, okay, tomorrow, the continuation of the notebooks that will...",
+    "chunk_type": "code_walkthrough",
+    "cue_count": 2
+  }
+]

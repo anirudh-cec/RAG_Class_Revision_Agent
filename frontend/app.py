@@ -2,9 +2,13 @@
 import streamlit as st
 import sys
 import os
+from dotenv import load_dotenv
 
 # Add project root to path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+# Load environment variables from .env
+load_dotenv()
 
 from src.logger.custom_logger import CustomLogger
 from src.exception.custom_exception import RagAppException

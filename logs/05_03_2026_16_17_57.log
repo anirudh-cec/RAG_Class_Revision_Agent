@@ -1,0 +1,99 @@
+{"path": "data/chunks/test/chunks.json", "timestamp": "2026-05-03T10:47:57.049256Z", "level": "info", "event": "Starting embedding pipeline"}
+{"timestamp": "2026-05-03T10:47:57.049580Z", "level": "info", "event": "Environment validated"}
+{"total": 202, "timestamp": "2026-05-03T10:47:57.060691Z", "level": "info", "event": "Chunks loaded"}
+{"timestamp": "2026-05-03T10:47:57.118549Z", "level": "info", "event": "Clients initialized"}
+{"start": 1, "end": 20, "total": 202, "timestamp": "2026-05-03T10:47:57.118683Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+findCollections
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+finished findCollections
+createCollection('class_chunks')
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+finished createCollection('class_chunks')
+inserting 20 documents in 'class_chunks'
+insertMany(chunk) on 'class_chunks'
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/class_chunks "HTTP/1.1 200 OK"
+finished insertMany(chunk) on 'class_chunks'
+finished inserting 20 documents in 'class_chunks'
+{"count": 20, "timestamp": "2026-05-03T10:48:18.925271Z", "level": "info", "event": "Batch stored"}
+{"start": 21, "end": 40, "total": 202, "timestamp": "2026-05-03T10:48:18.925425Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+inserting 20 documents in 'class_chunks'
+insertMany(chunk) on 'class_chunks'
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/class_chunks "HTTP/1.1 200 OK"
+finished insertMany(chunk) on 'class_chunks'
+finished inserting 20 documents in 'class_chunks'
+{"count": 20, "timestamp": "2026-05-03T10:48:20.365472Z", "level": "info", "event": "Batch stored"}
+{"start": 41, "end": 60, "total": 202, "timestamp": "2026-05-03T10:48:20.365765Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+inserting 20 documents in 'class_chunks'
+insertMany(chunk) on 'class_chunks'
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/class_chunks "HTTP/1.1 200 OK"
+finished insertMany(chunk) on 'class_chunks'
+finished inserting 20 documents in 'class_chunks'
+{"count": 20, "timestamp": "2026-05-03T10:48:21.513706Z", "level": "info", "event": "Batch stored"}
+{"start": 61, "end": 80, "total": 202, "timestamp": "2026-05-03T10:48:21.513808Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+inserting 20 documents in 'class_chunks'
+insertMany(chunk) on 'class_chunks'
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/class_chunks "HTTP/1.1 200 OK"
+finished insertMany(chunk) on 'class_chunks'
+finished inserting 20 documents in 'class_chunks'
+{"count": 20, "timestamp": "2026-05-03T10:48:22.509766Z", "level": "info", "event": "Batch stored"}
+{"start": 81, "end": 100, "total": 202, "timestamp": "2026-05-03T10:48:22.509926Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+inserting 20 documents in 'class_chunks'
+insertMany(chunk) on 'class_chunks'
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/class_chunks "HTTP/1.1 200 OK"
+finished insertMany(chunk) on 'class_chunks'
+finished inserting 20 documents in 'class_chunks'
+{"count": 20, "timestamp": "2026-05-03T10:48:23.942959Z", "level": "info", "event": "Batch stored"}
+{"start": 101, "end": 120, "total": 202, "timestamp": "2026-05-03T10:48:23.943137Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+inserting 20 documents in 'class_chunks'
+insertMany(chunk) on 'class_chunks'
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/class_chunks "HTTP/1.1 200 OK"
+finished insertMany(chunk) on 'class_chunks'
+finished inserting 20 documents in 'class_chunks'
+{"count": 20, "timestamp": "2026-05-03T10:48:25.376861Z", "level": "info", "event": "Batch stored"}
+{"start": 121, "end": 140, "total": 202, "timestamp": "2026-05-03T10:48:25.377027Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+inserting 20 documents in 'class_chunks'
+insertMany(chunk) on 'class_chunks'
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/class_chunks "HTTP/1.1 200 OK"
+finished insertMany(chunk) on 'class_chunks'
+finished inserting 20 documents in 'class_chunks'
+{"count": 20, "timestamp": "2026-05-03T10:48:26.405120Z", "level": "info", "event": "Batch stored"}
+{"start": 141, "end": 160, "total": 202, "timestamp": "2026-05-03T10:48:26.405297Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+inserting 20 documents in 'class_chunks'
+insertMany(chunk) on 'class_chunks'
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/class_chunks "HTTP/1.1 200 OK"
+finished insertMany(chunk) on 'class_chunks'
+finished inserting 20 documents in 'class_chunks'
+{"count": 20, "timestamp": "2026-05-03T10:48:27.570144Z", "level": "info", "event": "Batch stored"}
+{"start": 161, "end": 180, "total": 202, "timestamp": "2026-05-03T10:48:27.570295Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+inserting 20 documents in 'class_chunks'
+insertMany(chunk) on 'class_chunks'
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/class_chunks "HTTP/1.1 200 OK"
+finished insertMany(chunk) on 'class_chunks'
+finished inserting 20 documents in 'class_chunks'
+{"count": 20, "timestamp": "2026-05-03T10:48:28.724156Z", "level": "info", "event": "Batch stored"}
+{"start": 181, "end": 200, "total": 202, "timestamp": "2026-05-03T10:48:28.724444Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+inserting 20 documents in 'class_chunks'
+insertMany(chunk) on 'class_chunks'
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/class_chunks "HTTP/1.1 200 OK"
+finished insertMany(chunk) on 'class_chunks'
+finished inserting 20 documents in 'class_chunks'
+{"count": 20, "timestamp": "2026-05-03T10:48:29.421813Z", "level": "info", "event": "Batch stored"}
+{"start": 201, "end": 202, "total": 202, "timestamp": "2026-05-03T10:48:29.421926Z", "level": "info", "event": "Processing batch"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+inserting 2 documents in 'class_chunks'
+insertMany(chunk) on 'class_chunks'
+HTTP Request: POST https://5b106445-29e2-4b65-9815-c219e907b530-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/class_chunks "HTTP/1.1 200 OK"
+finished insertMany(chunk) on 'class_chunks'
+finished inserting 2 documents in 'class_chunks'
+{"count": 2, "timestamp": "2026-05-03T10:48:30.290869Z", "level": "info", "event": "Batch stored"}
+{"total": 202, "embedded": 202, "stored": 202, "failed": 0, "timestamp": "2026-05-03T10:48:30.293603Z", "level": "info", "event": "Pipeline complete"}
