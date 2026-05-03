@@ -1,0 +1,5 @@
+streamlit>=1.28.0
+requests>=2.31.0
+validators>=0.22.0
+pathlib>=1.0.1
+structlog>=23.0.0
