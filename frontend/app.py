@@ -1,75 +1,128 @@
-"""Main entry point for the Streamlit frontend application."""
-import streamlit as st
+"""
+Main entry point for the Streamlit frontend.
+
+Provides step-by-step ingestion flow and direct access to chat via Retrieval button.
+"""
+
 import sys
 import os
-from dotenv import load_dotenv
 
-# Add project root to path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Add project root to Python path - CRITICAL for imports to work
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+    print(f"DEBUG: Added {project_root} to sys.path", file=sys.stderr)
 
-# Load environment variables from .env
-load_dotenv()
+import streamlit as st
 
-from src.logger.custom_logger import CustomLogger
-from src.exception.custom_exception import RagAppException
-from frontend.utils.session_state import init_session_state, get_current_step
-from frontend.styles.custom_css import get_custom_css
+# Import pages using absolute imports from project root
+try:
+    from frontend.streamlit_pages import landing, vtt_upload, code_upload, github_upload, review, success
+    from frontend.components import retrieval_button
+    print("DEBUG: Successfully imported frontend modules", file=sys.stderr)
+except ImportError as e:
+    print(f"DEBUG: Import error - {e}", file=sys.stderr)
+    print(f"DEBUG: sys.path = {sys.path}", file=sys.stderr)
+    raise
 
-# Import pages
-from frontend.pages import landing, vtt_upload, code_upload, github_upload, review, success
+
+def init_session_state():
+    """Initialize session state variables"""
+    if "current_step" not in st.session_state:
+        st.session_state.current_step = 0
+
+    if "vtt_files" not in st.session_state:
+        st.session_state.vtt_files = []
+
+    if "code_files" not in st.session_state:
+        st.session_state.code_files = []
+
+    if "github_urls" not in st.session_state:
+        st.session_state.github_urls = []
+
+    if "page" not in st.session_state:
+        st.session_state.page = "landing"
 
 
-# Initialize logger
-logger = CustomLogger(log_dir="logs").get_logger(__name__)
+def navigate_to_step(step: int):
+    """Navigate to a specific step"""
+    st.session_state.current_step = step
+
+
+def navigate_to_chat():
+    """Navigate to chat page"""
+    st.session_state.page = "chat"
+    st.rerun()
 
 
 def main():
-    """Main application entry point."""
-    try:
-        # Page configuration
-        st.set_page_config(
-            page_title="Class Recording RAG",
-            page_icon="📚",
-            layout="wide",
-            initial_sidebar_state="collapsed"
-        )
+    """Main entry point"""
+    st.set_page_config(
+        page_title="RAG Class Assistant",
+        page_icon="📚",
+        layout="wide",
+        initial_sidebar_state="expanded"
+    )
 
-        # Inject custom CSS
-        st.markdown(get_custom_css(), unsafe_allow_html=True)
+    init_session_state()
 
-        # Initialize session state
-        init_session_state()
+    # Check if we should show chat page
+    if st.session_state.page == "chat":
+        # Import and run chat page
+        from frontend.streamlit_pages import chat
+        chat.render()
+        return
 
-        # Get current step
-        current_step = get_current_step()
-        logger.info(f"Current step: {current_step}")
+    # Sidebar - Show navigation and retrieval button
+    with st.sidebar:
+        st.title("📚 RAG Assistant")
+        st.markdown("---")
 
-        # Route to appropriate page
-        if current_step == 0:
-            landing.render()
-        elif current_step == 1:
-            vtt_upload.render()
-        elif current_step == 2:
-            code_upload.render()
-        elif current_step == 3:
-            github_upload.render()
-        elif current_step == 4:
-            review.render()
-        elif current_step == 5:
-            success.render()
-        else:
-            logger.error(f"Invalid step: {current_step}")
-            st.error("An error occurred. Please restart the application.")
+        # 🚀 Retrieval Button - Direct access to chat
+        st.markdown("### 🚀 Quick Access")
+        if st.button(
+            "💬 Go to Chat",
+            use_container_width=True,
+            type="primary",
+            help="Start chatting with your existing knowledge base"
+        ):
+            navigate_to_chat()
 
-    except RagAppException as e:
-        logger.error(f"Application error: {str(e)}")
-        st.error(f"An error occurred: {str(e)}")
-        st.button("🔄 Restart", on_click=lambda: init_session_state())
+        st.markdown("---")
 
-    except Exception as e:
-        logger.error(f"Unexpected error: {str(e)}", exc_info=True)
-        st.error("An unexpected error occurred. Please check the logs and try again.")
-        st.button("🔄 Restart", on_click=lambda: init_session_state())
+        # Step indicator
+        st.markdown("### 📍 Current Step")
+
+        steps = [
+            "🏠 Landing",
+            "📄 Upload VTT",
+            "💻 Upload Code",
+            "🔗 GitHub Links",
+            "✅ Review",
+            "🎉 Success"
+        ]
+
+        for idx, step in enumerate(steps):
+            if idx == st.session_state.current_step:
+                st.markdown(f"**→ {step}**")
+            else:
+                st.markdown(f"  {step}")
+
+    # Main content area
+    current_step = st.session_state.current_step
+
+    if current_step == 0:
+        landing.render()
+    elif current_step == 1:
+        vtt_upload.render()
+    elif current_step == 2:
+        code_upload.render()
+    elif current_step == 3:
+        github_upload.render()
+    elif current_step == 4:
+        review.render()
+    elif current_step == 5:
+        success.render()
 
 
 if __name__ == "__main__":
